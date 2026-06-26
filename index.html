@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Pocket Companions</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; line-height: 1.6;
+         font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         color: #1c1a17; background: #fbf7f0; }
+  @media (prefers-color-scheme: dark) { body { color: #ece8e1; background: #1a1815; } a { color: #f0a878; } }
+  h1 { font-size: 1.7rem; margin-bottom: .2em; }
+  h2 { font-size: 1.2rem; margin-top: 1.8em; border-bottom: 1px solid #d8cfc0; padding-bottom: .2em; }
+  .updated { color: #8a8478; font-size: .9rem; }
+  table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: .92rem; }
+  th, td { border: 1px solid #d8cfc0; padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: rgba(240,168,120,.15); }
+  code { background: rgba(140,132,120,.16); padding: 1px 5px; border-radius: 4px; font-size: .88em; }
+  a { color: #c06a2a; }
+</style>
+</head>
+<body>
+<h1>Privacy Policy — Pocket Companions</h1>
+<p class="updated">Last updated: 26 June 2026</p>
+
+<p>Pocket Companions ("the app", "we", "us") is an Android app that places a small animated companion on your screen and lets you bond with it. This policy explains what data the app handles.</p>
+
+<h2>The short version</h2>
+<p>The app has <strong>no account, no login, and no server of ours</strong>. Almost everything — your name, settings, and bond progress — is stored only on your device. We do not sell your data, and we use <strong>no analytics software</strong>. To find and fix bugs, the app sends <strong>anonymous crash reports</strong> via Google Firebase Crashlytics — see "Crash reporting". The free app is funded by <strong>ads (Google AdMob)</strong> — see "Ads &amp; network".</p>
+<p>A few optional <strong>"real-life reaction" features are turned OFF by default</strong>. You can switch them on in <em>Settings → Real-life reactions</em>, and each asks for <em>notification access</em> first:</p>
+<ul>
+  <li><strong>React to notifications / Dance to music</strong> — uses Android's <em>notification access</em> so the companion can react when a notification arrives or while music plays. The app reads only the <strong>fact</strong> that an event happened — <strong>never the content</strong> (no titles, text, sender, or what you're listening to). Nothing about your notifications leaves the device.</li>
+</ul>
+<p>If you never enable these, the app uses no notification access and no sensors.</p>
+
+<h2>What the app stores on your device</h2>
+<p>The app keeps a small set of preferences in private storage on your device, readable only by the app: your optional <strong>display name</strong>; the active <strong>companion</strong>; <strong>bond progress &amp; in-app "petals" economy</strong> (cosmetics you own/equip); <strong>settings</strong> (overlay, theme, language, notifications, the Focus-ritual toggle, the ads consent choice, and the opt-in reaction toggles, all default off). This data does not leave the device through the app (except the system-backup case below).</p>
+
+<h2>Real-life reactions (optional — OFF by default)</h2>
+<p>Each reaction is off until you turn it on, which sends you to the notification-access screen. If access is not granted, the toggle reverts to off, and the feature does nothing.</p>
+<ul>
+  <li><strong>Notifications &amp; music:</strong> Android's "notification access" lets the companion observe that a notification was posted, and that audio is playing, so it can peek or dance. It does <strong>not</strong> read, store, or transmit any notification or media content.</li>
+</ul>
+<p><em>Earlier versions included a weather reaction (approximate location) and a "walk with you" step reaction (activity recognition). Both were removed — the app no longer requests location or activity-recognition, and makes no weather network call.</em></p>
+
+<h2>Ads &amp; network</h2>
+<p>The free app is funded by ads via <strong>Google AdMob</strong> — rewarded videos you choose to watch, and a small banner on the in-app hub screens (<strong>never</strong> on the floating companion or in a photo). AdMob may access your device's <strong>advertising ID</strong> to serve and measure ads. Before any ad loads, you're shown a <strong>consent choice</strong> (Google's User Messaging Platform): in the EEA/UK you can pick personalized or limited (non-personalized) ads, changeable later in <em>Settings → Ad personalization</em>. The app contains no analytics or attribution software. (Crash reporting is described in its own section below.)</p>
+
+<h2>Crash reporting</h2>
+<p>To find and fix crashes, the app uses <strong>Google Firebase Crashlytics</strong>. When the app crashes, it sends Google a <strong>crash report</strong>: the error and stack trace, your device model and Android version, the app version, the device's state at the time (such as available memory, orientation, and whether the device is rooted), the time of the crash, and a random <strong>Crashlytics installation identifier</strong> used to group a session's reports. These reports are <strong>diagnostic only</strong> — they contain <strong>no</strong> name, contacts, messages, photos, notification content, or precise location. Crash data is processed by Google as our data processor and is retained for a limited period (about 90 days). The app uses Crashlytics for crash reporting only — it does <strong>not</strong> use Firebase Analytics. See Google's <a href="https://firebase.google.com/support/privacy">Firebase privacy &amp; security</a>.</p>
+
+<h2>Accounts and personal information</h2>
+<p>The app has <strong>no account system</strong> — no sign-up, login, email, password, or third-party sign-in. The only personal-ish data is the optional <strong>display name</strong>, stored locally and used for greetings and the optional photo watermark. You can change it any time or leave it blank.</p>
+
+<h2>Photos</h2>
+<p>The photo feature renders an image (your scene + companion) <strong>entirely on your device</strong>. <strong>Save</strong> writes it to your gallery; <strong>Share</strong> hands it to Android's standard share sheet, where <strong>you</strong> choose the destination — the app never auto-sends an image. If the watermark setting is on (default), "Pocket Companions" and your display name are drawn onto the exported image; you can turn this off or leave your name blank. The app does <strong>not</strong> read your camera, existing photos, microphone, or contacts.</p>
+
+<h2>Permissions</h2>
+<table>
+  <tr><th>Permission</th><th>Why</th></tr>
+  <tr><td>Display over other apps</td><td>The core feature — drawing the floating companion on top of other apps. Granted by you in Android Settings.</td></tr>
+  <tr><td>Foreground service (special use)</td><td>Keeps the companion visible and not killed by the system.</td></tr>
+  <tr><td>Notifications</td><td>The service shows a notification with Show/Hide controls; the app may also send reminders you opt into.</td></tr>
+  <tr><td>Run after restart</td><td>So the companion can return after a reboot if it was enabled.</td></tr>
+  <tr><td>Internet / Advertising ID</td><td>Used by the ads SDK (Google AdMob) to load ads and access the advertising ID, and by Firebase Crashlytics to upload anonymous crash reports.</td></tr>
+  <tr><td>Notification access <em>(optional)</em></td><td>Notification &amp; music reactions only — reacts to the presence of events; content is never read.</td></tr>
+</table>
+<p>The app also reads the battery level at runtime to pause the companion on low battery; this is used on-device and never stored or transmitted.</p>
+
+<h2>Advertising</h2>
+<p>The app uses <strong>Google AdMob</strong> to show ads (rewarded videos you opt to watch + a hub-screen banner; never on the overlay or in photos). AdMob may collect and use your device's <strong>advertising ID</strong> to serve and measure ads, and shares it with Google for that purpose. Ad personalization follows the consent choice described in "Ads &amp; network". See Google's policies at <a href="https://policies.google.com/technologies/ads">policies.google.com/technologies/ads</a>. Apart from this and the crash reporting described above, the app uses no other analytics or attribution software.</p>
+
+<h2>Android system backup</h2>
+<p>Android's standard backup may include the app's local settings (which can contain your display name and progress) in your device's <strong>backup to your own Google account</strong>. This is an Android function — we do not receive this data. You can control or disable backups in your device settings.</p>
+
+<h2>Children</h2>
+<p>The app is general-audience and is <strong>not directed at children</strong> under the age of digital consent in your region, and does not knowingly collect personal data from children. Clearing the app's data or uninstalling it removes everything stored locally.</p>
+
+<h2>Your control over your data</h2>
+<ul>
+  <li>Change or clear your display name and settings in the app at any time.</li>
+  <li>Leave the real-life reaction toggles off (the default) to use no sensors and make no network requests.</li>
+  <li>Turn the photo watermark off so your name is not drawn onto images.</li>
+  <li>Clear the app's storage in Android Settings, or uninstall, to remove all local data. There is no server-side data of ours to delete.</li>
+</ul>
+
+<h2>Changes to this policy</h2>
+<p>If the app's data practices change (for example, new ad providers, accounts, or network features), this policy and the Google Play Data Safety declaration will be updated before that version is released.</p>
+
+<h2>Contact</h2>
+<p>For privacy questions, contact: <a href="mailto:abdo.elgomri@gmail.com">abdo.elgomri@gmail.com</a></p>
+</body>
+</html>
